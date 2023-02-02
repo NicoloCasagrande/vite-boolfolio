@@ -20,7 +20,11 @@ export default {
       <p class="card-text">
         {{ data.content }}
       </p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <router-link
+        :to="{ name: 'single-post', params: { slug: data.slug } }"
+        class="btn btn-primary"
+        >Info</router-link
+      >
     </div>
   </div>
 </template>
