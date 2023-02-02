@@ -1,6 +1,6 @@
 <script>
 import ListPosts from "../components/ListPosts.vue";
-import ListPosts from "../components/ListPosts.vue";
+
 export default {
   name: "HomePage",
   componentes: {

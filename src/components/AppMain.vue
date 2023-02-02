@@ -8,7 +8,7 @@ export default {
 
 <template>
   <main>
-    <ListPosts />
+    <router-view></router-view>
   </main>
 </template>
 
