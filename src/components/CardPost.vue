@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-  <div class="card">
+  <div class="card" height="450">
     <img
       v-if="data.image_url"
       :src="data.image_url"

@@ -23,7 +23,7 @@ export default {
 <template>
   <section>
     <div class="container">
-      <div class="row">
+      <div class="row gy-4">
         <div class="col-md-4" v-for="post in posts">
           <CardPost :data="post" />
         </div>
